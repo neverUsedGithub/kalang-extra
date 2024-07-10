@@ -1,0 +1,11 @@
+vec = vec2(0, 0)
+vec += vec2(50, 50)
+vec *= 2
+
+debug.log(vec)
+
+col = rgb(0, 0, 0)
+col += rgb(255, 255, 255)
+col /= 2
+
+debug.log(col)
